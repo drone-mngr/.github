@@ -1,10 +1,56 @@
 {
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T21:07:32Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:97078d17704277026ac421aab572b7c1fcba43a1390150496ecacaeedb41e858",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 12,
+    "private_repositories_omitted": true,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "drone-mngr/.github",
+    "github_id": "308176360",
+    "linear_project": {
+      "id": "89e8fc0d-283c-485a-94ac-a3d31917a64b",
+      "name": "github.com/drone-mngr",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomdrone-mngr-8ac391ac308d",
+      "workspace": "denman"
+    },
+    "login": "drone-mngr",
+    "mapping_id": "context:drone-mngr"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": true,
+    "digest": "sha256:7ecdd56c3573d36e9e5434f54f74845230c39650513390d3af5d78ce53c1dfa0",
+    "path": "owners/drone-mngr.json",
+    "repository": "ORESoftware/project-registry"
+  },
+  "relationships": [],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "drone-mngr/.github",
+      "github_id": "1324049113",
+      "name": ".github",
+      "owner": "drone-mngr",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/drone-mngr/.github",
+      "visibility": "public"
+    }
+  ],
   "schema_version": 1,
-  "organization": "drone-mngr",
-  "generated_at": null,
-  "repositories": [],
-  "notes": [
-    "Populate from live GitHub inventory; do not infer unverified dependencies.",
-    "Repository-local manifests remain authoritative for exact dependency versions."
-  ]
+  "unresolved_hints": []
 }
