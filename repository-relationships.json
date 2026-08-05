@@ -29,7 +29,7 @@
     "contains_non_public_inventory": true,
     "digest": "sha256:7ecdd56c3573d36e9e5434f54f74845230c39650513390d3af5d78ce53c1dfa0",
     "path": "owners/drone-mngr.json",
-    "repository": "ORESoftware/project-registry"
+    "repository": "approved-private-registry"
   },
   "relationships": [],
   "repositories": [
